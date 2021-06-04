@@ -10,7 +10,6 @@ size = (width, height) = 640, 480
 pygame.init()
 
 win = pygame.display.set_mode(size)
-pygame.display.set_caption("Dijktdtra's Path Finding")
 clock = pygame.time.Clock()
 
 cols, rows = 64, 48
